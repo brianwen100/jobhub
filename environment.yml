@@ -1,0 +1,12 @@
+name: jobhub
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - nodejs
+  - pip
+  - pip:
+    - flask
+    - pymongo
+    - python-dotenv
